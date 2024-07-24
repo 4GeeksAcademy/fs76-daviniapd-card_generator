@@ -1,8 +1,3 @@
-// function cardGenerator() {
-//   console.log("carta aleatoria");
-// }
-
-// cardGenerator();
 function cardGenerator() {
   let numbers = [
     "A",
