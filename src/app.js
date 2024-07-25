@@ -20,7 +20,7 @@ function cardGenerator() {
   let randomSuit = suits[Math.floor(Math.random() * suits.length)];
 
   document.getElementById("numberCard").innerHTML = randomNumber;
-  document.getElementById("suitCardTop").innerHTML = randomSuit;
+  document.getElementById("suitCardTop").innerHTML = ©;
   document.getElementById("suitCardTop").style.color =
     randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
   document.getElementById("suitCardBottom").innerHTML = randomSuit;

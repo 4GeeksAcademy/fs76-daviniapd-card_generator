@@ -18,11 +18,16 @@
     margin-bottom: 20px;
     font-size: 80px;
     line-height: 2;
-    box-shadow: 3px 2px 15px 2px black;
+    box-shadow: 3px 2px 15px 2px #242424;
 }
+
+#suitCardBottom {
+    transform: rotateX(180deg);
+  }
 
 button {
     transition: transform 0.3s; 
+    box-shadow: 4px 2px 8px #242424;
   }
 
 button:hover {
