@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'JQKAS Wild';
+    src: url('fonts/JQKAS-Wild.ttf');
+  }
 
 #tablePoker {
     position: absolute;
@@ -40,6 +44,10 @@
     width: fit-content;
 }
 
+#numberCard {
+    font-family: 'JQKAS Wild';
+}
+
 #suitLeftBottom {
     width: fit-content;
     transform: rotateX(180deg);
@@ -50,16 +58,24 @@
     transform: rotateX(180deg);
 }
 
-
-
-button {
+.btn {
+    color: #dc3545;
+    background-color: #0f0f0f;
+    border-color: #dc3545;
     transition: transform 0.3s; 
     box-shadow: 4px 2px 8px #242424;
-  }
+}
 
-button:hover {
+.btn:hover {
+    color: #dc3545;
+    background-color: #0f0f0f;
+    border-color: #dc3545;
     transform: scale(1.01);
 }
-button:active {
+
+.btn:active {
+    color: #dc3545 !important;
+    background-color: #0f0f0f !important;
+    border-color: #dc3545;
     transform: scale(1.05); 
-  }
+}
