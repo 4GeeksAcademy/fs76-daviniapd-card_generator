@@ -21,7 +21,11 @@ function cardGenerator() {
 
   document.getElementById("numberCard").innerHTML = randomNumber;
   document.getElementById("suitCardTop").innerHTML = randomSuit;
+  document.getElementById("suitCardTop").style.color =
+    randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
   document.getElementById("suitCardBottom").innerHTML = randomSuit;
+  document.getElementById("suitCardBottom").style.color =
+    randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
 
   // eslint-disable-next-line no-console
   console.log(`Your card is ${randomNumber} of ${randomSuit}`);

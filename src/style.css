@@ -1,0 +1,33 @@
+
+#tablePoker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #19451c;
+}
+
+#card {
+    background-color: white;
+    margin-top: 100px;
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    font-size: 80px;
+    line-height: 2;
+    box-shadow: 3px 2px 15px 2px black;
+}
+
+button {
+    transition: transform 0.3s; 
+  }
+
+button:hover {
+    transform: scale(1.01);
+}
+button:active {
+    transform: scale(1.05); 
+  }
