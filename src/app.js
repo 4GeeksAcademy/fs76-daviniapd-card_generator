@@ -16,9 +16,6 @@ function cardGenerator() {
   ];
   let suits = ["♦", "♥", "♠", "♣"];
 
-  // let randomNumberIndex = Math.floor(Math.random() * numbers.length);
-  // let randomSuitIndex = Math.floor(Math.random() * suits.length);
-
   let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
   let randomSuit = suits[Math.floor(Math.random() * suits.length)];
 
