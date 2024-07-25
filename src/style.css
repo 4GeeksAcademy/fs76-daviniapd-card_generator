@@ -19,11 +19,38 @@
     font-size: 80px;
     line-height: 2;
     box-shadow: 3px 2px 15px 2px #242424;
+    padding: 0px 30px;
 }
 
-#suitCardBottom {
+
+.suits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#suitLeftTop {
+    width: fit-content;
+}
+
+#suitRightTop {
+    width: fit-content;
+}
+
+#suitLeftBottom {
+    width: fit-content;
     transform: rotateX(180deg);
-  }
+}
+
+#suitRightBottom {
+    width: fit-content;
+    transform: rotateX(180deg);
+}
+
+
 
 button {
     transition: transform 0.3s; 

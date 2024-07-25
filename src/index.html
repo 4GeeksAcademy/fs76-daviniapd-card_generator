@@ -17,15 +17,19 @@
   <body>
     <div class="container-fluid text-center" id="tablePoker">
       <div class="container" id="card">
-        <p id="suitCardTop">
-          <span class="text-danger">♦</span> ♠
-          <span class="text-danger">♥</span> ♣
-        </p>
+        <div class="row suits">
+          <p id="suitLeftTop">
+            <span class="text-danger">♦</span>
+          </p>
+          <p id="suitRightTop">
+            ♠
+          </p>
+        </div>
         <p id="numberCard">?</p>
-        <p id="suitCardBottom">
-          <span class="text-danger">♦</span> ♠
-          <span class="text-danger">♥</span> ♣
-        </p>
+        <div class="row suits">
+          <p id="suitLeftBottom">♣</p>
+          <p id="suitRightBottom"><span class="text-danger">♥</span></p>
+        </div>
       </div>
       <button onclick="cardGenerator()" type="button" class="btn btn-light">
         <b>Generate a Poker Card</b>

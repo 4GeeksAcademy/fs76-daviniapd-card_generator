@@ -20,11 +20,17 @@ function cardGenerator() {
   let randomSuit = suits[Math.floor(Math.random() * suits.length)];
 
   document.getElementById("numberCard").innerHTML = randomNumber;
-  document.getElementById("suitCardTop").innerHTML = ©;
-  document.getElementById("suitCardTop").style.color =
+  document.getElementById("suitLeftTop").innerHTML = randomSuit;
+  document.getElementById("suitLeftTop").style.color =
     randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
-  document.getElementById("suitCardBottom").innerHTML = randomSuit;
-  document.getElementById("suitCardBottom").style.color =
+  document.getElementById("suitRightTop").innerHTML = randomSuit;
+  document.getElementById("suitRightTop").style.color =
+    randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
+  document.getElementById("suitLeftBottom").innerHTML = randomSuit;
+  document.getElementById("suitLeftBottom").style.color =
+    randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
+  document.getElementById("suitRightBottom").innerHTML = randomSuit;
+  document.getElementById("suitRightBottom").style.color =
     randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
 
   // eslint-disable-next-line no-console
