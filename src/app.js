@@ -14,6 +14,7 @@ function cardGenerator() {
     "Q",
     "K"
   ];
+
   let suits = ["♦", "♥", "♠", "♣"];
 
   let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
@@ -33,6 +34,5 @@ function cardGenerator() {
   document.getElementById("suitRightBottom").style.color =
     randomSuit === "♦" || randomSuit === "♥" ? "#dc3545" : "";
 
-  // eslint-disable-next-line no-console
   console.log(`Your card is ${randomNumber} of ${randomSuit}`);
 }
